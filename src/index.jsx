@@ -1,7 +1,7 @@
 import '../assets/stylesheets/application.scss';
 
 import React from 'react'
-import * as ReactDOM from 'react-dom';
+import * as ReactDOM from 'react-dom/client';
 import App from "./components/App";
 
 const containerDiv = document.querySelector('#root');
